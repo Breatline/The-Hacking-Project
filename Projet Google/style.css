@@ -1,0 +1,162 @@
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.items-header{
+  display: flex;
+  height: 48px;
+  flex-direction: row;
+  justify-content: flex-end;  
+}
+
+.items{
+  display: flex;
+  align-items: center;
+  margin: 0% 1%;
+}
+
+.items-1{
+  text-decoration: none;
+  color: black;
+  font: 13px/27px;
+}
+
+#connexion{
+  background: #1a73e8;
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 5%;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 290px;
+  min-height: 150px;
+  height: calc(100% - 560px);
+}
+
+.container{
+  display: block;
+  height: 160px;
+  position: relative;
+}
+
+.search-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 20px;
+  position: relative;
+}
+
+#search-bar-design{
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223,225,229,0);
+  border-radius: 24px;
+  width: 582px;
+  height: 44px;
+}
+
+.icones{
+  display: flex;
+  position: absolute;
+  align-content: space-between;
+}
+
+#microphone{
+  padding-right: 20x;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  font-family: arial,sans-serif;  
+}
+
+.button-design{
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 36px;
+  text-align: center;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+  cursor: pointer;
+}
+
+#blank{
+  display: block;
+  position: absolute;
+  background-color: transparent;
+}
+
+footer{
+  display: block;
+  width: 100%;
+  height: max-content;
+  background-color: #f2f2f2;
+  bottom: 0;
+  position: fixed;
+}
+
+.footer-top{
+  display: flex;
+  flex-direction: row;
+  align-content: center; 
+  border-bottom: 1px solid #dadce0;
+}
+
+#France-design{
+  padding-left: 20px;
+}
+
+.footer-bottom{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-left{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer-left-design{
+  margin-right: 10px;
+  padding-left: 20px;
+  color: #70757a;
+  text-decoration: none;
+}
+
+.footer-middle{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-middle-design{
+  color: #70757a;
+  text-decoration: none;
+}
+
+.footer-right{
+  display: flex;
+}
+
+.footer-right-design{
+  margin-left: 10px;
+  padding-right: 20px;
+  color: #70757a;
+  text-decoration: none;
+}
